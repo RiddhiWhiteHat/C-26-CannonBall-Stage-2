@@ -13,10 +13,11 @@ class Ball{
         World.add(world,this.body);
     };
 
-    display(){
+    display(r,g,b){
         var pos = this.body.position;
         var angle = this.body.angle;
         push();
+        fill(rgb(r,g,b));
         translate(pos.x, pos.y);
         rotate(angle);
         ellipseMode(RADIUS);
