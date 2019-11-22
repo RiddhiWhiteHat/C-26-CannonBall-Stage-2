@@ -23,7 +23,7 @@ function draw() {
   //Display
   ground.display();
   cannon.display();
-  ball1.display();
-  ball2.display();
-  ball3.display();
+  ball1.display(255,0,0); //red
+  ball2.display(0,255,0); // blue
+  ball3.display(0,0,255); //green
 }
